@@ -150,10 +150,8 @@ position: relative;
   margin-right: 1rem;
 }
 .yellow5 {
-  margin: 0px;
-  width: 100%;
-  height: 350px;
   background-color: gold;
+  padding: 1rem;
 }
 .blue5 {
   width: 100%;

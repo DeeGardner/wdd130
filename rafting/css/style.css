@@ -149,8 +149,9 @@ a:active {
   grid-column: 1/3;
   grid-row: 3;
   position: relative;
-  top: 100px;
+  top: 50px;
   text-align: center;
+  margin: 0 10px 0 10px;
 }
 .footericons {
   margin-top: 35px;

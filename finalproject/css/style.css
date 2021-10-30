@@ -1,0 +1,27 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
+main {
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
+.white {
+    background-color: #EDECDC;
+    color: #EDECDC;
+}
+.green {
+    background-color: #74A995;
+    color: #74A995;
+}
+
+.red {
+    background-color: #7F292F;
+    color: #7F292F;
+}
+.roboto {
+    font-family: 'Roboto Mono', monospace;
+}

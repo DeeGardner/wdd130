@@ -1,6 +1,7 @@
 
-head body {
-  width: 850px;
+body {
+  width: 960px;
+  margin: 0 auto;
 }
 header {
   display: grid;
@@ -16,7 +17,6 @@ body {
   font-family: 'Oxygen', Arial, Helvetica, sans-serif;
   font-size: 35px;
   line-height: 1.5;
-  margin: 0px;
   padding: 0px;
 }
 h1,
@@ -55,9 +55,9 @@ footer {
   list-style: none; 
   display: flex;
   position: relative;
-  right: 70%;
+  right: 40%;
   top: 40%;
-  width: 163%;
+  width: 130%;
   text-align: center;
   background-color: #e5d352;
   font-size: 35px;
@@ -99,14 +99,14 @@ a:active {
   transition-duration: 0.5s;
   cursor: pointer;
   margin: 0px;
-  top: 65%;
-  right: 0;
+  top: 55%;
+  right: 0%;
   font-family: 'Zilla Slab', Arial, Helvetica, serif;
   font-size: 20px;
   border: none;
   background-color: #e5d352;
-  padding: 30px 400px 30px 30px;
-  opacity: .85
+  padding: 25px 300px 25px 30px;
+  opacity: .85;
 }
 .button:hover {
   background-color: #2B6069;
@@ -127,7 +127,7 @@ a:active {
   grid-column: 2;
   grid-row: 1;
   position: relative;
-  right: 10px;
+  top: 90px;
   box-shadow: 0 5px 50px rgb(0 0 0 / 0.5);
   width: 100%;
   margin: 30px 0px 0 0px;
@@ -142,7 +142,7 @@ a:active {
   grid-column: 1;
   grid-row: 2;
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.5);
-  width: 500px;
+  width: 450px;
   margin: 30px 10px 0 10px;
 }
 .last_para {

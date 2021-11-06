@@ -1,27 +1,33 @@
 body {
-    width: 900px;
-    margin: 0 auto;
+  width: 900px;
+  margin: 0 auto;
 }
 header {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
 }
 main {
-    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
 }
 .white {
-    background-color: #EDECDC;
-    color: #EDECDC;
+  background-color: #edecdc;
+  color: #edecdc;
 }
 .green {
-    background-color: #74A995;
-    color: #74A995;
+  background-color: #74a995;
+  color: #74a995;
 }
-
 .red {
-    background-color: #7F292F;
-    color: #7F292F;
+  background-color: #7f292f;
+  color: #7f292f;
 }
 .roboto {
-    font-family: 'Roboto Mono', monospace;
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+}
+.student {
+  width: 50rem;
+}
+.icon {
+  width: 100px;
 }

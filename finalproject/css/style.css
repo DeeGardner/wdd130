@@ -1,6 +1,7 @@
 body {
   width: 900px;
   margin: 0 auto;
+  background-color: #dcdcdc;
 }
 header {
   text-align: center;
@@ -30,4 +31,7 @@ main {
 }
 .icon {
   width: 100px;
+}
+.wireframe {
+  width: 430px;
 }

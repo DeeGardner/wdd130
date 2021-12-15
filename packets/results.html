@@ -1,61 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsum? Ratione placeat maiores commodi soluta magnam, doloremque magni ea reiciendis.">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Results</title>
+    <meta
+      name="description"
+      content="Showing results for 'cookies' on Packets."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="images/tab_icon.ico" />
+  </head>
+  <body>
     <header>
-        <h1>
-            Packets
-        </h1>
-        <p>
-            Showing Results for: "Search Query"
-        </p>
-        <a href="index.html">about</a>
-        <input type="text" placeholder="search">
-        </header>
-        <main>
-            <section>
-                <p>Filter</p>
-                <form action="" method="get">
-                    <input type="checkbox" id="filert1" name="Lorem" value="Lorem">
-                    <label for="filter1"> Filter 1</label><br>
-                    <input type="checkbox" id="filter2" name="Lorem" value="Lorem">
-                    <label for="filter2"> Filter 2</label><br>
-                    <input type="checkbox" id="filter3" name="Lorem" value="Lorem">
-                    <label for="filter3"> Filter 3</label><br><br>
-                    <input type="submit" value="Submit">
-                  </form>
-            </section>
-            <section>
-                <p>Packet Name</p>
-                <p>Read Time</p>
-                <p>Accuracy Rating</p>
-            </section>
-            <section>
-                <p>Packet Name</p>
-                <p>Read Time</p>
-                <p>Accuracy Rating</p>
-            </section>
-            <section>
-                <p>Packet Name</p>
-                <p>Read Time</p>
-                <p>Accuracy Rating</p>
-            </section>
-        </main>
-        <footer>
-            <p>
-                © 2021 Dee Gardner
-            </p>
-            <a href="index.html">contribute</a>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </footer>
-</body>
+      <div class="logobox">
+        <a class="logo" href="index.html"> Packets </a>
+      </div>
+      <div class="aboutbox2">
+        <p class="searchquery">Showing Results for: "Cookie"</p>
+        <div class="linkbox">
+          <a class="about_link2" href="index.html">about</a>
+        </div>
+      </div>
+      <input class="searchbox" type="text" placeholder="search" />
+    </header>
+    <main class="mainbody">
+      <section class="filter">
+        <div class="filtergrid">
+          <img
+            class="filtericon"
+            src="images/filter.png"
+            title="filter"
+            alt="Filter Icon"
+          />
+          <p class="filtertext">Filter</p>
+        </div>
+        <form action="index.html" method="get">
+          <input type="checkbox" id="box1" name="Read Time" />
+          <label for="box1"> Read Time</label><br />
+          <input type="checkbox" id="box2" name="Accuracy" />
+          <label for="box2"> Accuracy</label><br />
+          <input type="checkbox" id="box3" name="All Results" />
+          <label for="box3"> All Results</label><br /><br />
+          <input class="boxbutton" type="submit" value="Submit" />
+        </form>
+      </section>
+      <section class="result1">
+        <a class="result_link" href="packet.html">
+          <div class="resultborder">
+            <p class="resultname">Packet Name: Cookies (Food)</p>
+            <p class="resultread">Read Time [1 mins]</p>
+            <p class="accuracyrating">Accuracy Rating [9]</p>
+          </div>
+        </a>
+      </section>
+      <section class="result2">
+        <a class="result_link" href="results.html">
+          <div class="resultborder">
+            <p class="resultname">Packet Name: Cookies (Web)</p>
+            <p class="resultread">Read Time [9 mins]</p>
+            <p class="accuracyrating">Accuracy Rating [7]</p>
+          </div>
+        </a>
+      </section>
+      <section class="result3">
+        <a class="result_link" href="results.html">
+          <div class="resultborder">
+            <p class="resultname">Packet Name: Biscuit (Food)</p>
+            <p class="resultread">Read Time [4 mins]</p>
+            <p class="accuracyrating">Accuracy Rating [9]</p>
+          </div>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <p>© 2021 Dee Gardner</p>
+      <div class="footericons">
+        <a class="contribute" href="index.html">contribute</a>
+        <hr class="divider" />
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            class="facebook"
+            src="images/facebook.png"
+            title="Visit us on Facebook"
+            alt="facebook icon"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img
+            class="instagram"
+            src="images/instagram.png"
+            title="Visit us on Instagram"
+            alt="instagram icon"
+        /></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img
+            class="twitter"
+            src="images/twitter.png"
+            title="Visit us on Twitter"
+            alt="twitter icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
